@@ -1,0 +1,92 @@
+{
+    "itemData": [
+    { "id" : "1",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home1.jpg",
+      "title": "Technology Home"
+    },
+    { "id" : "2",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home2.jpg",
+      "title": "Digital Agency"
+    },
+    { "id" : "3",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home3.jpg",
+      "title": "Startup Agency"
+    },
+    { "id" : "4",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home4.jpg",
+      "title": "App Landing Page"
+    },
+  
+    { "id" : "5",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home5.jpg",
+      "title": "Digital Studio"
+    },
+    { "id" : "6",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home6.jpg",
+      "title": "Digital Agency"
+    },
+    { "id" : "7",
+        "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home7.jpg",
+        "title": "Saas Landing"
+    },
+    { "id" : "8",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home8.jpg",
+      "title": "Social Marketing"
+    },
+    { "id" : "9",
+      "img":"https://www.radiustheme.com/demo/html/digeco/img/product/home9.jpg",
+      "title": "Software Landing"
+    },
+    { "id" : "10",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home10.jpg",
+      "title": "CRM Software"
+    },
+    { "id" : "11",
+      "img": "https://www.radiustheme.com/demo/html/digeco/img/product/home11.jpg",
+      "title": "Internet Service"
+    },
+    { "id" : "12",
+      "img":"https://www.radiustheme.com/demo/html/digeco/img/product/coming.jpg",
+      "title": "Coming Soon"
+    }
+  ],
+  "innerPages" : [
+    { "id" : "1",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/1.jpg"
+    },
+    { "id" : "2",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/2.jpg"
+    },
+    { "id" : "3",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/3.jpg"
+    },
+    { "id" : "4",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/4.jpg"
+    },
+    { "id" : "5",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/5.jpg"
+    },
+    { "id" : "6",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/6.jpg"
+    },
+    { "id" : "7",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/7.jpg"
+    },
+
+    { "id" : "8",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/8.jpg"
+    },
+    { "id" : "9",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/9.jpg"
+    },
+    { "id" : "10",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/10.jpg"
+    },
+    { "id" : "11",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/11.jpg"
+    },
+    { "id" : "12",
+      "img" : "https://www.radiustheme.com/demo/html/digeco/img/inner-pages/12.jpg"
+    }
+  ]
+}

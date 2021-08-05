@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+
+* {
+  /* margin: 0 auto; */
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
