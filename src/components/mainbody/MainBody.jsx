@@ -1,5 +1,5 @@
 import {Grid, Container, makeStyles, Typography, Box} from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 import data from './Data.json';
 const useStyles = makeStyles ({
   container: {
@@ -99,6 +99,7 @@ const dataMain = data.itemData;
 
 const MainBody = () => {
   const classes = useStyles ();
+  const [data, setData] = useState(dataMain)
   return (
     <div>
       <Container className={classes.container} maxWidth="lg">
@@ -112,7 +113,7 @@ const MainBody = () => {
         </Box>
 
         <Grid container spacing={3}>
-          {dataMain.map (item => (
+          {data.map (item => (
             <Grid item xs={12} sm={6} md={4}>
               <Grid className={classes.imgFeature} key={item.id}>
                 <img className={classes.image} src={item.img} alt="" />

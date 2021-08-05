@@ -1,5 +1,5 @@
 import {Grid, Container, makeStyles, Typography, Box} from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 const useStyles = makeStyles ({
   container: {
     maxWidth: '100%',
@@ -86,6 +86,7 @@ const itemData = [
 ];
 const TemplateFeature1 = () => {
   const classes = useStyles ();
+  const [templateFeature1, setTemplateFeature1] = useState(itemData)
   return (
     <div className={classes.container}>
       <Container className={classes.bodyContainer}>
@@ -96,7 +97,7 @@ const TemplateFeature1 = () => {
         </Box>
 
         <Grid container spacing={3}>
-          {itemData.map (item => (
+          {templateFeature1.map (item => (
             <Grid item xs={12} sm={6} md={4}>
               <Grid className={classes.imgFeature} key={item.img}>
                 <img src={item.img} alt="" />

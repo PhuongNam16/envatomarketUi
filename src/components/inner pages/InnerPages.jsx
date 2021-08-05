@@ -1,5 +1,5 @@
 import {Grid, Container, makeStyles, Typography, Box} from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 import data from '../mainbody/Data.json';
 const useStyles = makeStyles ({
   container: {
@@ -45,6 +45,7 @@ const dataInnerPages = data.innerPages;
 
 const InnerPages = () => {
   const classes = useStyles ();
+  const [pages, setPages] = useState(dataInnerPages)
   return (
     <div>
       <Container className={classes.container} maxWidth="lg">
@@ -55,7 +56,7 @@ const InnerPages = () => {
         </Box>
 
         <Grid container spacing={4}>
-          {dataInnerPages.map (item => (
+          {pages.map (item => (
             <Grid className={classes.masonryItem} item xs={3}>
               <Grid className={classes.imgFeature} key={item.id}>
                 <img className={classes.image} src={item.img} alt="image" />

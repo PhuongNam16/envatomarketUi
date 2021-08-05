@@ -95,6 +95,7 @@ const useStyles = makeStyles ({
 });
 const Banner = () => {
   const classes = useStyles ();
+
   return (
     <div>
       <Container id="wapper" className={classes.container}>
@@ -134,7 +135,7 @@ const Banner = () => {
                 className={`${classes.textColors} ${classes.title}`}
               >
                 11 Home Pages With Eye Catching Inner Pages. Over 100+ interface block
-              </Typography>
+              </Typography> 
             </Box>
             <ul className={classes.inline}>
               <li><a className={classes.ghostBtn} href="#">Buy Now</a></li>
