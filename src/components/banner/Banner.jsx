@@ -1,5 +1,5 @@
 import {Box, Container, makeStyles, Typography} from '@material-ui/core';
-import React from 'react';
+import React, {useState} from 'react';
 
 const useStyles = makeStyles ({
   container: {
@@ -36,6 +36,7 @@ const useStyles = makeStyles ({
     fontSize: '40px',
     fontWeight: 700,
     lineHeight: '60px',
+    marginRight: '20px'
   },
   fixedText2: {
     fontSize: '38px',
@@ -92,10 +93,21 @@ const useStyles = makeStyles ({
     right: '-390px',
     top: '0',
   },
+  boxIntro:{
+    display: 'flex',
+  }
 });
+const animation = [
+  {id: 0, value: 'Technology'},
+  {id: 1, value: 'Digital Agency'},
+  {id: 2, value: 'Startup Agency'},
+  {id: 3, value: 'App Landing'},
+  {id: 4, value: 'Digital Marketing'},
+];
+
 const Banner = () => {
   const classes = useStyles ();
-
+  const [headerAnimation, setHeaderAnimation] = useState (0);
   return (
     <div>
       <Container id="wapper" className={classes.container}>
@@ -116,12 +128,22 @@ const Banner = () => {
               />
             </Box>
             <Box className={classes.intro}>
+            <Box className ={classes.boxIntro}>
               <Typography
                 className={`${classes.textColors} ${classes.fixedText}`}
                 variant="h4"
               >
-                Best
+                Best{' '}
               </Typography>
+              <Typography className={classes.textColors}>
+                {animation.map (item => (
+                  <Typography key={item.id} variant="h5">
+                    {item.value}
+                  </Typography>
+                ))}
+
+              </Typography>
+            </Box>
               <Typography
                 variant="h5"
                 className={`${classes.textColors} ${classes.fixedText2}`}
@@ -135,7 +157,7 @@ const Banner = () => {
                 className={`${classes.textColors} ${classes.title}`}
               >
                 11 Home Pages With Eye Catching Inner Pages. Over 100+ interface block
-              </Typography> 
+              </Typography>
             </Box>
             <ul className={classes.inline}>
               <li><a className={classes.ghostBtn} href="#">Buy Now</a></li>
